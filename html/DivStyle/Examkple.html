@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поля</title>
+    <style type="text/css">
+        .space {
+            padding: 20px; /* Поля */
+            background: #E5D3BD; /* Цвет фона */
+            border: 2px solid #E81E25; /* Параметры рамки */
+        }
+        #extra{
+            background: #131513;
+        }
+        P.line {
+            border-left: 1px dotted red;
+            padding: 10px;
+        }
+        .layer1, .layer2 {
+            background: #F2EFE6;
+            border: 1px solid #B25538;
+            padding: 10px;
+            margin: 20px;
+        }
+        div {
+            width: 100%; /* Ширина */
+            background: #fc0; /* Цвет фона */
+            padding: 20px; /* Поля */
+            -moz-box-sizing: border-box; /* Для Firefox */
+            -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+            box-sizing: border-box; /* Для IE и Opera */
+        }
+    </style>
+</head>
+<body>
+<div class="space" id="extra">
+    Они шли, чтобы покорить нас, чтобы пытать нас и сжигать живьем на кострах,
+    они шли, чтобы сделать с нами, вольными англичанами, то же самое, что
+    Кортес сделал с индейцами Анауака.
+</div>
+
+<div class="space">
+    Some txt
+</div>
+
+<p class="line">Лев ревет только в том случае, когда сообщает, что
+    территория принадлежит ему или провозглашает себя царем природы.</p>
+</body>
+
+<div class="layer1">Лев ревет только в том случае, когда сообщает, что
+    территория принадлежит ему или провозглашает себя царем природы.</div>
+<div class="layer2">Охотничий участок льва может иметь длину и ширину
+    до тридцати километров.</div>
+
+<div>Ширина блока 100%</div>
+</html>

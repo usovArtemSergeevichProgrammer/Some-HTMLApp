@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ширина блока</title>
+    <style type="text/css">
+        .wrap {
+            width: 50%; /* Ширина */
+            background: #B25538;
+        }
+        .wrap div {
+            background: #5c56ff;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        div {
+            width: 100%; /* Ширина */
+            background: #fc0; /* Цвет фона */
+            padding: 20px; /* Поля */
+            -moz-box-sizing: border-box; /* Для Firefox */
+            -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+            box-sizing: border-box; /* Для IE и Opera */
+        }
+    </style>
+</head>
+<body>
+<div>Ширина блока 100%</div>
+
+<div class="wrap">
+    <div>Ширина слоя 100%</div>
+</div>
+</body>
+</html>
